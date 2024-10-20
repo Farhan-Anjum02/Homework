@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body{
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.clr {
+  clear: both;
+}
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+.heading3 {
+  color: #fd5b2f;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.heading2 {
+  color: #000000;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.heading4 {
+  color: #000000;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.detail {
+  color: #000;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.detail2 {
+  color: #000;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.common_button {
+  padding: 18px 26px;
+  background-color: #fd5b2f;
+  color: #fff;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 14px;
+  border: none;
+}
+/* ==========================
+      common css end
+========================== */
+
+/* ==========================
+      Navbar css start
+========================== */
+#main_menu {
+  height: 72px;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  padding-top: 20px;
+}
+.menu_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu_col ul {
+  display: flex;
+  align-items: center;
+  line-height: 72px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.menu_col ul li a {
+  padding: 0 25px;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #686c75;
+  transition: all linear 0, 3s;
+}
+
+/* ==========================
+      Navbar css end
+========================== */
+
+/* ==========================
+      Banner css start
+========================== */
+
+#banner {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 90px;
+}
+#banner .banner_row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 8px;
+}
+#banner .banner_row .banner_col_1 {
+  width: 50%;
+}
+#banner .banner_row .banner_col_2 {
+  width: 50%;
+  position: relative;
+}
+.banner_img1 {
+  position: absolute;
+  right: -80px;
+  top: -50px;
+}
+.banner_img2 {
+  position: absolute;
+  right: -35%;
+  top: 8%;
+}
+.banner_img3 {
+  position: absolute;
+  right: -30%;
+  top: 25%;
+}
+
+#banner .heading_upperImg {
+  padding-bottom: 20px;
+  width: 80px;
+  height: 16px;
+}
+.banner_row h1 {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 58px;
+  font-weight: 700;
+  color: #000;
+  width: 474px;
+  padding-bottom: 80px;
+}
+.banner_part1 {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #989898;
+  background-color: #ebe3e3;
+  gap: 150px;
+  padding-top: 30px;
+}
+.banner_part2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.banner_persons img {
+  width: 181px;
+  height: 37px;
+}
+/* ==========================
+      Banner css end
+========================== */
+
+/* ==========================
+      Logo css start
+========================== */
+#logo {
+  padding: 100px 0 194px;
+ 
+}
+#logo .logo_row {
+  display: flex;
+  gap: 47px;
+  justify-content: center;
+}
+#logo .logo_icon .icon {
+
+  width: 20%;
+}
+
+/* ==========================
+      Logo css end
+========================== */
+
